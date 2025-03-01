@@ -55,28 +55,3 @@ Phone: (123) 456-7890
 </div>
 
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const newsItems = document.querySelectorAll('.news-item');
-  const thresholdDate = new Date();
-  thresholdDate.setMonth(thresholdDate.getMonth() - 6); // Hides news older than 6 months
-
-  newsItems.forEach(item => {
-    const itemDate = new Date(item.getAttribute('data-date'));
-    if (itemDate < thresholdDate) {
-      item.style.display = 'none';
-    } else {
-      item.style.display = 'block';
-    }
-  });
-
-  const showMoreButton = document.getElementById('show-more');
-  showMoreButton.addEventListener('click', function() {
-    newsItems.forEach(item => {
-      item.style.display = 'block';
-    });
-    showMoreButton.style.display = 'none';
-  });
-});
-</script>
