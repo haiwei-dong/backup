@@ -1,7 +1,7 @@
 # Professor Jane Doe  
 ## Professor of Computer Science  
 
-<div style="display: flex;">
+<div style="display: flex; gap: 20px;">
 
 <div style="flex: 70%;">
 
@@ -39,14 +39,14 @@ She received her PhD from ABC University in 2005 and joined XYZ University in 20
   <div class="news-item" data-date="2023-09-15">**September 2023**: Published a new paper in *Journal of CS*. [Link](http://example.com/paper)</div>
   <div class="news-item" data-date="2023-08-01">**August 2023**: Received a research grant. [Details](http://example.com/grant)</div>
   <div class="news-item" data-date="2023-07-01">**July 2023**: Hosted an AI ethics workshop. [Details](http://example.com/workshop)</div>
-  <button id="show-more">Show more</button>
+  <button id="show-more" style="margin-top: 10px;">Show more</button>
 </div>
 
 </div>
 
 <div style="flex: 30%; text-align: center;">
 
-<img src="jane_doe.jpg" alt="Professor Jane Doe" width="200">  
+<img src="jane_doe.jpg" alt="Professor Jane Doe" width="200" style="border-radius: 10px;">  
 
 **Contact**  
 Email: [jane.doe@example.com](mailto:jane.doe@example.com)  
@@ -67,17 +67,20 @@ document.addEventListener('DOMContentLoaded', function() {
   thresholdDate.setMonth(thresholdDate.getMonth() - 6); // Hides news older than 6 months
 
   newsItems.forEach(item => {
-    const itemDate = new Date(item.dataset.date);
+    const itemDate = new Date(item.getAttribute('data-date'));
     if (itemDate < thresholdDate) {
       item.style.display = 'none';
+    } else {
+      item.style.display = 'block';
     }
   });
 
-  document.getElementById('show-more').addEventListener('click', function() {
+  const showMoreButton = document.getElementById('show-more');
+  showMoreButton.addEventListener('click', function() {
     newsItems.forEach(item => {
       item.style.display = 'block';
     });
-    this.style.display = 'none';
+    showMoreButton.style.display = 'none';
   });
 });
 </script>
