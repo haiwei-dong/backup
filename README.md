@@ -2,7 +2,6 @@
 ## Professor of Computer Science  
 
 <div style="display: flex; gap: 20px;">
-
 <div style="flex: 70%;">
 
 ### Biography  
@@ -38,6 +37,7 @@ She received her PhD from ABC University in 2005 and joined XYZ University in 20
   <button id="show-more" style="margin-top: 10px;">Show more</button>
 </div>
 
+</div>
 </div>
 
 <div style="flex: 30%; text-align: center;">
