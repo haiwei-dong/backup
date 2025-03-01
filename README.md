@@ -83,15 +83,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-
-
-
-
-- [2025.02]: [A paper accepted by IEEE Network.]
-- [2025.02]: [Accepted an invitation to become Industry Chair in ACM Multimedia 2025.]
-- [2025.02]: [A survey paper accepted by ACM Transactions on Multimedia Computing, Communications, and Applications.]
-
-### Contact
-Email: [hdong@uottawa.ca]
-Address: [800 King Edward Ave. Ottawa, ON, Canada K1N 6N5]
