@@ -1,4 +1,4 @@
-# Professor Haiwei Dong 
+# Professor Jane Doe  
 ## Professor of Computer Science  
 
 <div style="display: flex;">
@@ -6,8 +6,6 @@
 <div style="flex: 70%;">
 
 ### Biography  
-Haiwei Dong is currently a Principal Researcher and Director with <a href="https://www.huawei.com/ca/">Huawei Canada</a>, and an Adjunct Professor with the <a href="https://www.uottawa.ca/en">University of Ottawa</a>. He was a Principal Engineer with Artificial Intelligence Competency Center, Huawei Technologies Canada, Toronto, ON, Canada, a Research Scientist with the University of Ottawa, Ottawa, ON, Canada, a Postdoctoral Fellow with New York University, New York City, NY, USA, a Research Associate with the University of Toronto, Toronto, ON, Canada, and a Research Fellow (PD) with the Japan Society for the Promotion of Science, Tokyo, Japan. He received the Ph.D. degree from Kobe University, Kobe, Japan in 2010 and the M.Eng. degree from Shanghai Jiao Tong University, Shanghai, China, in 2008. He is a Senior Member of IEEE, a Senior Member of ACM, and a registered Professional Engineer in Ontario. His research interests include artificial intelligence, multimedia, metaverse, and robotics. He also serves as a Column Editor of IEEE Multimedia Magazine; an Associate Editor of ACM Transactions on Multimedia Computing, Communications, and Applications; and an Associate Editor of IEEE Consumer Electronics Magazine.
-
 Jane Doe is a Professor of Computer Science at XYZ University. Her research interests include **artificial intelligence**, *machine learning*, and data science. She has published over 100 papers in top-tier conferences and journals, contributing significantly to advancements in AI technologies.  
 
 She received her PhD from ABC University in 2005 and joined XYZ University in 2010, where she leads the AI Research Group.  
@@ -48,7 +46,7 @@ She received her PhD from ABC University in 2005 and joined XYZ University in 20
 
 <div style="flex: 30%; text-align: center;">
 
-<img src="haiwei_dong.jpg" alt="Professor Jane Doe" width="200">  
+<img src="jane_doe.jpg" alt="Professor Jane Doe" width="200">  
 
 **Contact**  
 Email: [jane.doe@example.com](mailto:jane.doe@example.com)  
