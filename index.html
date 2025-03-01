@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Haiwei Dong | University of Ottawa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background-color: #fff;
+        }
+        header {
+            background-color: #9A1D34;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .logo span {
+            color: #666666;
+        }
+        .banner {
+            background: url('https://images.unsplash.com/photo-1501555088652-021faa106b9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1100&q=80') no-repeat center center;
+            background-size: cover;
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .banner h1 {
+            position: relative;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .banner p {
+            position: relative;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+        .main-content, .sidebar {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        h2 {
+            color: #9A1D34;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .about-section img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        .news-item {
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        .news-item strong {
+            color: #9A1D34;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: '›';
+            color: #666666;
+            position: absolute;
+            left: 0;
+        }
+        footer {
+            background-color: #666666;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #9A1D34;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #666666;
+        }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .about-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .about-section img {
+                margin: 0 auto 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">u<span>Ottawa</span></div>
+    </header>
+
+    <div class="banner">
+        <h1>Professor Haiwei Dong</h1>
+        <p>School of Electrical Engineering and Computer Science</p>
+    </div>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="about-section">
+                <img src="images/haiwei_dong.jpg" alt="Professor Haiwei Dong">
+                <div>
+                    <h2>About Me</h2>
+                    <p>
+                        Welcome! I am Professor Haiwei Dong, an Adjunct Professor at the University of Ottawa and Principal Researcher at Huawei Technologies Canada. 
+                        My work focuses on artificial intelligence, multimedia computing, and robotics, driving innovation for a smarter future. 
+                        With over 90 publications, I am passionate about research and education.
+                    </p>
+                </div>
+            </div>
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Artificial Intelligence and Machine Learning</li>
+                <li>Multimedia Communication and Processing</li>
+                <li>Robotics and Autonomous Systems</li>
+            </ul>
+        </div>
+
+        <div class="sidebar">
+            <h2>Recent News</h2>
+            <div class="news-item">
+                <strong>February 15, 2025:</strong> 
+                <span>Delivered keynote at IEEE Conference on AI Innovations about Multimodal AI.</span>
+            </div>
+            <div class="news-item">
+                <strong>January 10, 2025:</strong> 
+                <span>Published paper in IEEE Transactions on Multimedia on Metaverse Streaming.</span>
+            </div>
+            <div class="news-item">
+                <strong>December 5, 2024:</strong> 
+                <span>Received IEEE Technical Achievement Award for AI and Smart Grid contributions.</span>
+            </div>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:haiwei.dong@uottawa.ca">haiwei.dong@uottawa.ca</a></p>
+            <p>Office: SITE Building, Room 5032</p>
+            <p>Phone: (613) 562-5800 ext. 1234</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 University of Ottawa | Professor Haiwei Dong | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
