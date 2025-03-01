@@ -10,20 +10,17 @@ Jane Doe is a Professor of Computer Science at XYZ University. Her research inte
 
 She received her PhD from ABC University in 2005 and joined XYZ University in 2010, where she leads the AI Research Group.  
 
----
 
 ### Awards and Honors  
 - **Distinguished Researcher Award**, 2020  
 - **Best Paper Award**, International AI Conference, 2018  
 
----
 
 ### Selected Publications  
 - **Jane Doe**, John Smith, "Title of Paper", *Journal of Computer Science*, 2020. [Link](http://example.com)  
 - **Jane Doe**, Alice Johnson, "Another Paper", *Proceedings of the International Conference on AI*, 2019. [Link](http://example.com)  
 - [Full list of publications](http://example.com/publications)  
 
----
 
 ### Teaching  
 - **CS101: Introduction to Computer Science**  
@@ -31,7 +28,6 @@ She received her PhD from ABC University in 2005 and joined XYZ University in 20
 - **CS501: Advanced Machine Learning**  
   A graduate-level course exploring cutting-edge topics in machine learning.  
 
----
 
 ### Recent News  
 <div id="news">
