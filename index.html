@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            max-width: 1000px;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .bio {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .bio h1 {
+            margin: 0;
+            color: #333;
+        }
+        .news {
+            margin-top: 20px;
+        }
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="bio">
+        <h1>Professor Name</h1>
+        <p>Short bio about the professor, including academic background, research interests, and notable achievements.</p>
+        <div class="news">
+            <h2>Latest News</h2>
+            <ul>
+                <li>News item 1</li>
+                <li>News item 2</li>
+                <li>News item 3</li>
+            </ul>
+        </div>
+    </div>
+    <div class="photo">
+        <img src="photo.jpg" alt="Professor Photo">
+    </div>
+</div>
+</body>
+</html>
