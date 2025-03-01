@@ -29,16 +29,10 @@ She received her PhD from ABC University in 2005 and joined XYZ University in 20
 
 
 ### Recent News  
-<div id="news">
-  <div class="news-item" data-date="2023-10-01">**October 2023**: Gave a keynote at the AI Conference. [Read more](http://example.com/news1)</div>
-  <div class="news-item" data-date="2023-09-15">**September 2023**: Published a new paper in *Journal of CS*. [Link](http://example.com/paper)</div>
-  <div class="news-item" data-date="2023-08-01">**August 2023**: Received a research grant. [Details](http://example.com/grant)</div>
-  <div class="news-item" data-date="2023-07-01">**July 2023**: Hosted an AI ethics workshop. [Details](http://example.com/workshop)</div>
-  <button id="show-more" style="margin-top: 10px;">Show more</button>
-</div>
 
 </div>
 </div>
+
 
 <div style="flex: 30%; text-align: center;">
 
@@ -53,5 +47,4 @@ Phone: (123) 456-7890
 [Google Scholar](http://scholar.google.com/citations?user=abcdefg)  
 
 </div>
-
 </div>
