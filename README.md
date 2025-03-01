@@ -47,4 +47,3 @@ Phone: (123) 456-7890
 [Google Scholar](http://scholar.google.com/citations?user=abcdefg)  
 
 </div>
-</div>
