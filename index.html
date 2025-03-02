@@ -36,6 +36,17 @@
         .logo span {
             color: #666666;
         }
+        nav {
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .banner {
             background: url('ottawa-university.jpg') no-repeat center center;
             background-size: cover;
@@ -168,8 +179,11 @@
 </head>
 <body>
     <header>
-        <!-- <img src="University_of_Ottawa_Logo.png" alt="UOttawa Logo" class="logo"> Replace with your logo path -->
         <div class="logo">University of Ottawa<span></span></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="publications.html">Publications</a>
+        </nav>
     </header>
 
     <div class="banner">
@@ -242,7 +256,7 @@
         const newsList = document.getElementById('newsList');
 
         toggleNewsLink.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent default link behavior
+            e.preventDefault();
             if (newsList.classList.contains('show-all')) {
                 newsList.classList.remove('show-all');
                 toggleNewsLink.textContent = 'Read more';
